@@ -1,0 +1,520 @@
+.header {
+    background: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 350px;
+    font-family: 'Josefin Slab', serif;
+    width: 100%;
+    z-index: 3;
+    margin: 0px;
+}
+
+.marks {
+    height: 100%;
+    width: 100%;
+}
+
+#rating{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 9vw;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 125px;
+}
+
+#markten {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 10vw;
+    height: 100%;
+}
+
+#marknine {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 16vw;
+    height: 90%;
+}
+
+#markeight {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 22vw;
+    height: 80%;
+}
+
+#markseven {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 28vw;
+    height: 70%;
+}
+
+#marksix {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 34vw;
+    height: 60%;
+}
+
+#markfive {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 40vw;
+    height: 50%;
+}
+
+#markfour {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 46vw;
+    height: 40%;
+}
+
+#markthree {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 52vw;
+    height: 30%;
+}
+
+#marktwo {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 58vw;
+    height: 20%;
+}
+
+#markone {
+    border-left: 1px solid black;
+    position: absolute;
+    margin-left: 64vw;
+    height: 10%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26pt;
+    font-family: 'Josefin Slab', serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+	z-index: 1;
+	position: relative;
+	margin-top: 150px;
+    
+}
+
+.item {
+    width: 300px;
+    height: 150px;
+    position: relative;
+}
+
+.ten {
+    margin: 8px 0px 150px 10vw;
+}
+
+.nine {
+	margin: 8px 0px 150px 16vw;
+}
+
+.eight {
+	margin: 8px 0px 150px 22vw;
+}
+
+.seven {
+	margin: 8px 0px 150px 28vw;
+}
+
+.six {
+    margin: 8px 0px 150px 34vw;
+}
+
+.five {
+	margin: 8px 0px 150px 40vw;
+}
+
+.four {
+	margin: 8px 0px 150px 46vw;
+}
+
+.three {
+	margin: 8px 0px 150px 52vw;
+}
+
+.two {
+	margin: 8px 0px 150px 58vw;
+}
+
+.one {
+	margin: 8px 0px 150px 64vw;
+}
+
+.color {
+    position: relative;
+    float: left;
+    width: 33.333%;
+    height: 100%;
+    display: block;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: yellow;
+}
+
+.red {
+    background: red;
+}
+
+.text-box {
+    z-index: 2;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F2F2F2;
+}
+
+#pineone {
+	background: #ECDA15;
+}
+
+#pinetwo {
+	background: #62BB46;
+}
+
+#pinethree {
+	background: #A89B34;
+}
+
+#flakeone {
+	background: #ECDA15;
+}
+
+#flaketwo {
+	background: #FEF6AA;
+}
+
+#flakethree {
+	background: #F8F7CB;
+}
+
+#gradientone {
+	background: #0C3C5F;
+}
+
+#gradienttwo {
+	background: #5AB6E7;
+}
+
+#gradientthree {
+	background: #DAEBF8;
+}
+
+#eleone {
+	background: #171721;
+}
+
+#eletwo {
+	background: #005882;
+}
+
+#elethree {
+	background: #BA1E59;
+}
+
+#spotone {
+	background: #ECDA15;
+}
+
+#spottwo {
+	background: #BCBEC0;
+}
+
+#spotthree {
+	background: white;
+}
+#leatherone {
+	background: #ECDA15;
+}
+
+#leathertwo {
+	background: #785E50;
+}
+
+#leatherthree {
+	background: white;
+}
+
+#irione {
+	background: #5E8FCB;
+}
+
+#iritwo {
+	background: #F9F39F;
+}
+
+#irithree {
+	background: #F8C3DA;
+}
+
+#gradone {
+	background: #466E8B;
+}
+
+#gradtwo {
+	background: #B5D6F1;
+}
+
+#gradthree {
+	background: #D1D3D4;
+}
+
+.linescolor {
+	background: white;	
+}
+
+.solidone {
+	background: black;
+}
+
+#changeone {
+	background: #752A8E;
+}
+
+#changetwo {
+	background: #4856C1;
+}
+
+#changethree {
+	background: #5AA4DA;
+}
+
+#geoone {
+	background: #ECDA15;
+}
+
+#geotwo {
+	background: #BCBEC0;
+}
+
+#geothree {
+	background: white;
+}
+
+#pearlone {
+	background: #BFE1C5;
+}
+
+#pearltwo {
+	background: #F9D9E8;
+}
+
+#pearlthree {
+	background: #DAEBF8;
+}
+
+#donutone {
+	background: #F097C0;
+}
+
+#donuttwo {
+	background: #583A38;
+}
+
+#donutthree {
+	background: #FCC8AB;
+}
+
+#chevone {
+	background: #5283C3;
+}
+
+#chevtwo {
+	background: #232B64;
+}
+
+#chevthree {
+	background: #FFF0D4;
+}
+
+#metone {
+	background: #F6E381;
+}
+
+#mettwo {
+	background: black;
+}
+
+#metthree {
+	background: #F6E381;
+}
+
+#dotone {
+	background: #FDD9CA;
+}
+
+#dottwo {
+	background: #202A5E;
+}
+
+#dotthree {
+	background: #F6E381;
+}
+
+.lace {
+	background: white;
+}
+
+#stripeone {
+	background: #25497C;
+}
+
+#stripetwo {
+	background: #7E9EB2;
+}
+
+#stripethree {
+	background: #0D1525;
+}
+
+#dashone {
+	background: #F6E381;
+}
+
+#dashtwo {
+	background: white;
+}
+
+#dashthree {
+	background: black;
+}
+
+#circleone {
+	background: black;
+}
+
+#circletwo {
+	background: #FDFBE3;
+}
+
+#circlethree {
+	background: #F6E381;
+}
+
+#phantone {
+	background: #091B3D;
+}
+
+#phanttwo {
+	background: #9FDBE8;
+}
+
+#phantthree {
+	background: #FAAD5E;
+}
+
+#ripesone {
+	background: #9FDBE8;
+}
+
+#ripestwo {
+	background: #ACD9B6;
+}
+
+#ripesthree {
+	background: #F6E381;
+}
+
+#splatone {
+	background: black;
+}
+
+#splattwo {
+	background: #F6E381;
+}
+
+#splatthree {
+	background: #02747E;
+}
+
+#marbleone {
+	background: #F6E381;
+}
+
+#marbletwo {
+	background: white;
+}
+
+#marblethree {
+	background: #FAEE38;
+}
+
+.blankspace{
+	background: none;
+	height: 2000px;
+}
+
+#startlower{
+	margin-top: 250px;
+}
+
+
+
+
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    background: #F2F2F2;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
